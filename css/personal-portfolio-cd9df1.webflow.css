@@ -1,0 +1,1672 @@
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: block;
+  width: 12%;
+  background-color: #fff;
+}
+
+.navbarlink {
+  position: static;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  padding: 0px 12px 0px 0px;
+  float: none;
+  font-family: 'Varela Round', sans-serif;
+  color: rgba(51, 51, 51, .78);
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbarlink.w--current {
+  padding-right: 12px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #fcfe00;
+  text-align: right;
+}
+
+.navbarlink.contact {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.navbarlink.contact.w--current {
+  padding-right: 7px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #fcfe00;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.navbarlink.contact.greek {
+  text-transform: none;
+}
+
+.navbarlink.contact.greek.w--current {
+  text-transform: none;
+}
+
+.navbarlink.contact.work {
+  text-transform: none;
+}
+
+.navbarlink.contact.work.w--current {
+  font-weight: 600;
+}
+
+.navbarlink.contact.con {
+  text-transform: none;
+}
+
+.navbarlink.contact.con.w--current {
+  font-weight: 600;
+}
+
+.navbarlink.contact.tools {
+  text-transform: none;
+}
+
+.navbarlink.contact.tools.w--current {
+  font-weight: 600;
+}
+
+.navbarlink.greek.w--current {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.navbarlink.greek.work {
+  text-transform: none;
+}
+
+.navbarlink.greek.work.w--current {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.linksmenu {
+  height: 16%;
+  margin-top: 433px;
+  float: none;
+}
+
+.topsectionvideo {
+  position: relative;
+  overflow: visible;
+  width: 88%;
+  height: 500px;
+  float: right;
+}
+
+.topheadingpersonalmessage {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: auto;
+  max-width: 100%;
+  min-width: auto;
+  margin-top: 0%;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  padding: 10px 0px 10px 10px;
+  float: none;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.topheadingpersonalmessage.work {
+  display: block;
+  width: 55%;
+  margin: 25% auto 0px;
+  padding-top: 10px;
+  float: right;
+  color: rgba(0, 0, 0, .71);
+  font-size: 37px;
+  line-height: 37px;
+  font-weight: 400;
+  text-align: left;
+  text-shadow: -1px 1px 1px hsla(0, 0%, 100%, .38);
+}
+
+.topheadingpersonalmessage.work.skills {
+  margin-top: 28%;
+}
+
+.topheadingpersonalmessage.work.skills.land {
+  width: 62%;
+  margin-top: 24%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 37px;
+  line-height: 39px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.topheadingpersonalmessage.work.skills.land.home {
+  width: 59%;
+  margin-top: 26%;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 37px;
+  line-height: 37px;
+}
+
+.topheadingpersonalmessage.work.tablet {
+  width: 62%;
+  margin-top: 25%;
+}
+
+.topheadingpersonalmessage.contact {
+  display: block;
+  width: 55%;
+  margin-top: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 37px;
+  line-height: 39px;
+  font-weight: 400;
+  text-align: left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .38);
+}
+
+.topheadingpersonalmessage.contact.landscape {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 37px;
+  line-height: 37px;
+}
+
+.topheadingpersonalmessage.phone {
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.topheadingpersonalmessage.phone.home {
+  width: 100%;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3.3em;
+  font-weight: 400;
+  text-align: right;
+}
+
+.namespan {
+  font-family: 'Varela Round', sans-serif;
+  color: #fcfe00;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.developerspan {
+  font-family: 'Varela Round', sans-serif;
+  color: #abd58e;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.freelancespan {
+  font-family: 'Varela Round', sans-serif;
+  color: #fcfe00;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.myworksection {
+  overflow: visible;
+  width: 88%;
+  height: auto;
+  float: right;
+  background-image: url('../images/pattern_1x.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 1;
+}
+
+.myworksection.white {
+  background-color: #abd58e;
+}
+
+.columnwithtitle {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: auto;
+}
+
+.row {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.video {
+  display: block;
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  float: none;
+}
+
+.contactsection {
+  width: 90%;
+  height: 500px;
+  float: right;
+  background-image: url('../images/photo-1416339684178-3a239570f315.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactsection.phone {
+  width: 88%;
+  height: auto;
+}
+
+.overlaydiv {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 0, .78);
+}
+
+.overlaydiv.contacts {
+  background-color: hsla(95, 46%, 70%, .65);
+}
+
+.overlaydiv.contacts.phone {
+  background-color: hsla(95, 46%, 70%, .84);
+}
+
+.overlaydiv.edu {
+  background-color: hsla(0, 0%, 100%, .65);
+}
+
+.overlaydiv.mooc {
+  position: relative;
+  background-color: hsla(95, 46%, 70%, .75);
+}
+
+.workrow {
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sampleimage {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  max-height: 50%;
+  max-width: 50%;
+  padding: 5px;
+  float: none;
+}
+
+.sampleimage.link {
+  overflow: visible;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 0px;
+  -webkit-transform: translate3d(0px, 0px, 1px);
+  transform: translate3d(0px, 0px, 1px);
+}
+
+.sampleimage.link:hover {
+  -webkit-transform: translate3d(0px, 0px, 1px);
+  transform: translate3d(0px, 0px, 1px);
+}
+
+.imagescolumn {
+  height: 100%;
+  padding: 0px;
+}
+
+.workcolumn1 {
+  height: 100%;
+  padding-top: 0%;
+  padding-right: 5%;
+}
+
+.contactcolumn2 {
+  height: 100%;
+  padding-top: 9%;
+  padding-left: 5%;
+}
+
+.contactcolumn2.phone {
+  height: 61%;
+  padding-top: 0%;
+}
+
+.contactrow {
+  height: 100%;
+}
+
+.linkblock {
+  display: inline-block;
+  overflow: hidden;
+  width: 50%;
+  height: 50%;
+  max-height: 50%;
+  max-width: 50%;
+  margin: 0px;
+  padding: 17px;
+}
+
+.logoimg {
+  display: block;
+  width: 100%;
+}
+
+.nav-con {
+  height: 100%;
+  padding-top: 0px;
+}
+
+.brand {
+  float: left;
+}
+
+.imagediv {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, .72);
+}
+
+.namefield {
+  height: 50px;
+  border: 3px solid #fff;
+  background-color: hsla(0, 0%, 100%, .7);
+  font-size: 16px;
+}
+
+.namefield:focus {
+  border: 2px solid #ff0;
+}
+
+.namefield.phone {
+  padding-top: auto;
+  padding-bottom: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.mailfield {
+  height: 50px;
+  border: 3px solid #fff;
+  background-color: hsla(0, 0%, 100%, .7);
+  font-size: 16px;
+}
+
+.mailfield:focus {
+  border: 2px solid #ff0;
+}
+
+.mailfield.phone {
+  padding-top: auto;
+  padding-bottom: auto;
+  line-height: 16px;
+}
+
+.textfield {
+  width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+  border: 3px solid #fff;
+  background-color: hsla(0, 0%, 100%, .7);
+  font-size: 16px;
+}
+
+.textfield:focus {
+  border: 2px solid #ff0;
+}
+
+.textfield.phone {
+  overflow: auto;
+  height: 150px;
+  padding-top: auto;
+  padding-bottom: auto;
+  line-height: 16px;
+}
+
+.formcolumn {
+  height: 100%;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+.formcolumn.phone {
+  padding-bottom: 9%;
+}
+
+.formwrapper {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 86%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+}
+
+.formbtn {
+  width: 100%;
+  background-color: rgba(57, 153, 237, .7);
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-indent: 0px;
+  text-transform: uppercase;
+}
+
+.formbtn:hover {
+  background-color: #3999ed;
+}
+
+.formbtn.phone {
+  padding-top: auto;
+  padding-bottom: auto;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 21px;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+
+.footer {
+  display: block;
+  width: 88%;
+  height: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  float: right;
+  background-color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 45px;
+}
+
+.mailheader {
+  display: block;
+  margin-top: 29px;
+  margin-right: 0px;
+  margin-bottom: 29px;
+  -webkit-transition: -webkit-transform 1033ms linear;
+  transition: -webkit-transform 1033ms linear;
+  transition: transform 1033ms linear;
+  transition: transform 1033ms linear, -webkit-transform 1033ms linear;
+  color: rgba(51, 51, 51, .78);
+  font-size: 67px;
+  line-height: 67px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.mailheader:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  color: rgba(51, 51, 51, .9);
+}
+
+.footercon {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+}
+
+.mailcon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.educationsection {
+  width: 88%;
+  height: 500px;
+  float: right;
+  background-image: url('../images/benefits-of-online-education.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.l {
+  display: block;
+  float: none;
+}
+
+.navsec {
+  position: fixed;
+  z-index: 1;
+  width: 12%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.navcon {
+  margin-top: 244px;
+  padding-left: 10px;
+}
+
+.logolinkblock {
+  width: 100%;
+}
+
+.edurow {
+  height: 100%;
+}
+
+.workcol1 {
+  height: 100%;
+  -webkit-transition: -webkit-transform 1000ms linear;
+  transition: -webkit-transform 1000ms linear;
+  transition: transform 1000ms linear;
+  transition: transform 1000ms linear, -webkit-transform 1000ms linear;
+}
+
+.workcol2 {
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.slider {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  background-color: transparent;
+}
+
+.slidenav {
+  display: none;
+}
+
+.rightarrow {
+  position: static;
+  display: none;
+}
+
+.slider1 {
+  display: inline-block;
+  float: none;
+  text-align: center;
+}
+
+.skillsimg {
+  position: static;
+  display: inline-block;
+  margin-top: 21%;
+  margin-right: auto;
+  margin-left: 0px;
+  float: none;
+  text-align: center;
+}
+
+.skillsimg.git {
+  margin-top: 29%;
+}
+
+.skillsimg.github {
+  margin-top: 30%;
+}
+
+.skillsimg.webflow {
+  margin-top: 30%;
+}
+
+.skillsimg.atom {
+  margin-top: 32%;
+}
+
+.skillsimg.ubuntu {
+  margin-top: 21%;
+}
+
+.skillsimg.chrome {
+  margin-top: 28%;
+}
+
+.leftarrow {
+  position: static;
+  display: none;
+}
+
+.arrowicon {
+  display: none;
+}
+
+.slide2 {
+  position: static;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gimplink {
+  position: static;
+  left: 0px;
+  top: 0px;
+}
+
+.outdent {
+  margin-left: -26px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 37px;
+  line-height: 37px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-shadow: 0 1px 1px hsla(0, 0%, 100%, .38);
+}
+
+.moocsdiv {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+
+.moocssection {
+  display: block;
+  width: 88%;
+  float: right;
+}
+
+.moocimg {
+  display: block;
+  width: 33%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+}
+
+.projectspan {
+  color: #fcfe00;
+}
+
+.greekbtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  margin-top: 5px;
+  margin-right: 6px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: transparent;
+  -webkit-transition: -webkit-transform 450ms linear;
+  transition: -webkit-transform 450ms linear;
+  transition: transform 450ms linear;
+  transition: transform 450ms linear, -webkit-transform 450ms linear;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+}
+
+.greekbtn:hover {
+  background-color: #fff;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  color: #000;
+}
+
+.greekbtn.english.w--current {
+  z-index: 0;
+}
+
+.englishbtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: transparent;
+  -webkit-transition: -webkit-transform 467ms linear;
+  transition: -webkit-transform 467ms linear;
+  transition: transform 467ms linear;
+  transition: transform 467ms linear, -webkit-transform 467ms linear;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+}
+
+.englishbtn:hover {
+  background-color: #fff;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  color: #000;
+}
+
+.successmsg {
+  display: none;
+  margin-top: 50px;
+  border: 2px solid rgba(255, 255, 0, .77);
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.successmsg.error {
+  display: none;
+  text-align: center;
+}
+
+.errormsg {
+  display: block;
+}
+
+.instructionsspan {
+  color: rgba(0, 0, 0, .6);
+  font-size: 15px;
+}
+
+html.w-mod-js *[data-ix="navtrigger"] {
+  opacity: 0;
+  -webkit-transform: translate(57px, 0px);
+  -ms-transform: translate(57px, 0px);
+  transform: translate(57px, 0px);
+}
+
+html.w-mod-js *[data-ix="navtrigger-2"] {
+  opacity: 0;
+  -webkit-transform: translate(57px, 0px);
+  -ms-transform: translate(57px, 0px);
+  transform: translate(57px, 0px);
+}
+
+html.w-mod-js *[data-ix="navtrigger-3"] {
+  opacity: 0;
+  -webkit-transform: translate(57px, 0px);
+  -ms-transform: translate(57px, 0px);
+  transform: translate(57px, 0px);
+}
+
+html.w-mod-js *[data-ix="navtrigger-4"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -100px);
+  -ms-transform: translate(0px, -100px);
+  transform: translate(0px, -100px);
+}
+
+html.w-mod-js *[data-ix="navtrigger-5"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -100px);
+  -ms-transform: translate(0px, -100px);
+  transform: translate(0px, -100px);
+}
+
+html.w-mod-js *[data-ix="navtrigger-6"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -100px);
+  -ms-transform: translate(0px, -100px);
+  transform: translate(0px, -100px);
+}
+
+@media (max-width: 991px) {
+  .navbarlink {
+    display: block;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 0px;
+    text-align: right;
+  }
+  .navbarlink.contact {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .navbarlink.contact.w--current {
+    line-height: 16px;
+  }
+  .navbarlink.contact.greek.w--current {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .navbarlink.contact.greek.tools {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .navbarlink.contact.work {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .navbarlink.contact.con {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .navbarlink.contact.con.w--current {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .navbarlink.contact.tools {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .navbarlink.greek {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .navbarlink.greek.work.w--current {
+    float: right;
+  }
+  .linksmenu {
+    margin-top: 261px;
+    text-align: right;
+  }
+  .topsectionvideo {
+    width: 84%;
+    height: 366px;
+  }
+  .topheadingpersonalmessage {
+    margin-top: 17%;
+    margin-right: 5px;
+    padding-right: 0px;
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .topheadingpersonalmessage.work {
+    width: 79%;
+    margin-top: 21%;
+    padding-right: 10px;
+    float: right;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .topheadingpersonalmessage.work.skills {
+    margin-top: 43%;
+  }
+  .topheadingpersonalmessage.work.skills.land {
+    margin-top: 43%;
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .topheadingpersonalmessage.work.skills.land.home {
+    margin-top: 46%;
+    float: none;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .topheadingpersonalmessage.work.tablet {
+    width: 82%;
+    margin-top: 19%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .topheadingpersonalmessage.contact {
+    width: 67%;
+    margin-top: 55%;
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .topheadingpersonalmessage.contact.landscape {
+    margin-top: 47%;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .topheadingpersonalmessage.phone {
+    width: 71%;
+    float: right;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: right;
+  }
+  .topheadingpersonalmessage.phone.home {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 70%;
+    float: right;
+    font-size: 37px;
+    line-height: 37px;
+    font-weight: 400;
+  }
+  .myworksection {
+    width: 84%;
+    background-color: transparent;
+  }
+  .myworksection.white {
+    font-size: 13px;
+  }
+  .row {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .video {
+    display: block;
+    height: 365px;
+  }
+  .contactsection {
+    width: 85%;
+  }
+  .contactsection.phone {
+    width: 84%;
+  }
+  .overlaydiv {
+    position: relative;
+    z-index: 1;
+  }
+  .overlaydiv.mooc {
+    background-color: hsla(95, 46%, 70%, .75);
+  }
+  .workrow.tablet {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .sampleimage.link {
+    padding: 0px;
+  }
+  .workcolumn1 {
+    display: block;
+    height: auto;
+    padding-top: 3%;
+  }
+  .contactcolumn2 {
+    padding-right: 10px;
+    padding-left: 5%;
+  }
+  .linkblock {
+    margin-right: 0px;
+    padding: 10px 7px 10px 0px;
+  }
+  .imagediv {
+    margin-right: 0px;
+  }
+  .formbtn.phone {
+    letter-spacing: 0px;
+  }
+  .footer {
+    width: 84%;
+    height: 8%;
+  }
+  .mailheader {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .educationsection {
+    width: 84%;
+  }
+  .navsec {
+    width: 16%;
+  }
+  .logolinkblock {
+    display: block;
+  }
+  .skillsimg {
+    margin-top: 30%;
+  }
+  .skillsimg.git {
+    margin-top: 43%;
+  }
+  .skillsimg.github {
+    margin-top: 42%;
+  }
+  .skillsimg.webflow {
+    margin-top: 41%;
+  }
+  .skillsimg.atom {
+    margin-top: 46%;
+  }
+  .skillsimg.ubuntu.land {
+    margin-top: 23%;
+  }
+  .skillsimg.ubuntu.lans {
+    margin-top: 31%;
+  }
+  .skillsimg.chrome {
+    margin-top: 43%;
+  }
+  .outdent {
+    margin-left: -18px;
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .moocsdiv {
+    z-index: 0;
+    width: 100%;
+    float: none;
+  }
+  .moocssection {
+    width: 84%;
+  }
+  .greekbtn {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .englishbtn {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    width: 18%;
+  }
+  .navbarlink {
+    display: block;
+    text-align: right;
+  }
+  .navbarlink.w--current {
+    text-align: center;
+  }
+  .navbarlink.contact {
+    padding-right: 10px;
+    line-height: 18px;
+  }
+  .navbarlink.contact.w--current {
+    line-height: 18px;
+  }
+  .navbarlink.contact.greek {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .navbarlink.contact.greek.w--current {
+    float: right;
+    font-size: 15px;
+  }
+  .navbarlink.contact.con {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .navbarlink.greek {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .navbarlink.greek.w--current {
+    float: right;
+  }
+  .navbarlink.greek.work.w--current {
+    float: right;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .topsectionvideo {
+    width: 82%;
+    height: 264px;
+  }
+  .topheadingpersonalmessage {
+    margin-top: 12%;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .topheadingpersonalmessage.work {
+    display: block;
+    width: 56%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .topheadingpersonalmessage.work.skills {
+    margin-top: 15%;
+  }
+  .topheadingpersonalmessage.work.skills.land {
+    margin-top: 8%;
+    font-weight: 400;
+  }
+  .topheadingpersonalmessage.work.skills.land.home {
+    margin-top: 3%;
+    text-shadow: 0 1px 1px hsla(0, 0%, 100%, .94);
+  }
+  .topheadingpersonalmessage.work.tablet {
+    margin-top: 12%;
+  }
+  .topheadingpersonalmessage.contact {
+    display: block;
+    width: 78%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    font-weight: 400;
+  }
+  .topheadingpersonalmessage.contact.landscape {
+    width: 90%;
+    margin-top: 53%;
+    float: left;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .topheadingpersonalmessage.phone {
+    width: 68%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 38px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .topheadingpersonalmessage.phone.home {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 70%;
+    height: 100%;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 32px;
+    float: right;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: right;
+  }
+  .freelancespan {
+    line-height: 26px;
+  }
+  .myworksection {
+    width: 82%;
+    height: 472px;
+  }
+  .columnwithtitle {
+    height: 100%;
+  }
+  .row {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+  }
+  .video {
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .contactsection {
+    width: 82%;
+    height: 400px;
+  }
+  .contactsection.phone {
+    width: 82%;
+  }
+  .workrow.tablet {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sampleimage.link {
+    padding: 2px;
+  }
+  .imagescolumn {
+    height: 50%;
+  }
+  .workcolumn1 {
+    position: relative;
+    display: block;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0%;
+    text-align: center;
+  }
+  .linkblock {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 5px 11px;
+  }
+  .brand {
+    padding-left: 0px;
+  }
+  .topcolumn1 {
+    height: 0px;
+    padding-right: 0px;
+  }
+  .formcolumn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .formwrapper {
+    float: none;
+    text-align: left;
+  }
+  .formbtn.phone {
+    font-size: 21px;
+    letter-spacing: 0px;
+  }
+  .footer {
+    width: 82%;
+    height: 8%;
+  }
+  .mailheader {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .footercon {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .educationsection {
+    width: 82%;
+    height: 521px;
+  }
+  .navsec {
+    width: 18%;
+    font-size: 14px;
+  }
+  .body {
+    background-color: rgba(0, 0, 0, .44);
+  }
+  .logolinkblock {
+    display: block;
+    width: 100%;
+  }
+  .workcol1 {
+    height: 40%;
+  }
+  .workcol2 {
+    height: 60%;
+  }
+  .slider1 {
+    position: relative;
+    display: inline-block;
+  }
+  .skillsimg {
+    margin-top: 5%;
+  }
+  .skillsimg.git.land {
+    margin-top: 10%;
+  }
+  .skillsimg.github.landscape {
+    margin-top: 9%;
+  }
+  .skillsimg.webflow.land {
+    margin-top: 14%;
+  }
+  .skillsimg.atom.land {
+    margin-top: 13%;
+  }
+  .skillsimg.ubuntu {
+    display: inline-block;
+    max-width: 100%;
+  }
+  .skillsimg.ubuntu.land {
+    margin-top: 1%;
+  }
+  .skillsimg.ubuntu.lans {
+    margin-top: 1%;
+  }
+  .skillsimg.chrome.land {
+    margin-top: 11%;
+  }
+  .skillsimg.gimp.land {
+    margin-top: 1%;
+  }
+  .outdent {
+    font-weight: 400;
+  }
+  .moocssection {
+    width: 82%;
+  }
+  .moocimg {
+    background-color: transparent;
+  }
+  .greekbtn {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 479px) {
+  .navbar {
+    position: static;
+    width: auto;
+    height: auto;
+    float: none;
+    background-color: #fff;
+  }
+  .navbarlink {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    text-align: right;
+  }
+  .linksmenu {
+    position: relative;
+    margin-top: 172px;
+    font-size: 14px;
+  }
+  .topsectionvideo {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .topheadingpersonalmessage {
+    display: block;
+    width: 78%;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .topheadingpersonalmessage.work {
+    margin-top: 11%;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+  }
+  .topheadingpersonalmessage.work.skills {
+    text-align: left;
+  }
+  .topheadingpersonalmessage.work.skills.land {
+    margin-top: 1%;
+    font-weight: 400;
+    text-align: center;
+  }
+  .topheadingpersonalmessage.work.skills.land.home {
+    margin-top: 6%;
+    font-size: 21px;
+    line-height: 23px;
+  }
+  .topheadingpersonalmessage.work.tablet {
+    font-weight: 400;
+  }
+  .topheadingpersonalmessage.contact {
+    width: 69%;
+    margin-top: auto;
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .topheadingpersonalmessage.phone {
+    overflow: visible;
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+    margin-bottom: 0%;
+    padding: 10px;
+    float: none;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(0, 0, 0, .46);
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .topheadingpersonalmessage.phone.home {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 40%;
+    padding-top: 10px;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+  }
+  .developerspan {
+    display: inline-block;
+    line-height: 18px;
+    letter-spacing: -1px;
+  }
+  .freelancespan {
+    font-size: 19px;
+    line-height: 21px;
+  }
+  .myworksection {
+    width: 100%;
+  }
+  .columnwithtitle {
+    display: block;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .row {
+    position: static;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .contactsection {
+    width: 100%;
+    height: 400px;
+  }
+  .contactsection.phone {
+    width: 100%;
+  }
+  .contactsection.phone._2 {
+    display: block;
+    width: 100%;
+    height: 597px;
+    padding-bottom: 0px;
+    float: right;
+  }
+  .overlaydiv.contacts {
+    height: 100%;
+  }
+  .overlaydiv.contacts.phone {
+    padding-bottom: 40px;
+  }
+  .overlaydiv.mooc {
+    height: 100%;
+  }
+  .workrow.tablet {
+    height: 100%;
+  }
+  .workcolumn1 {
+    height: 50%;
+    padding-right: 10px;
+  }
+  .contactcolumn2.phone {
+    height: 50%;
+  }
+  .contactrow {
+    display: block;
+    height: 326px;
+  }
+  .contactrow.phone {
+    height: 345px;
+    margin-bottom: 0px;
+  }
+  .logoimg {
+    width: 100%;
+    max-width: 100%;
+  }
+  .nav-con {
+    height: auto;
+  }
+  .brand {
+    display: inline-block;
+    width: auto;
+    max-width: auto;
+    float: left;
+  }
+  .brand.w--current {
+    position: static;
+    display: block;
+    float: none;
+  }
+  .navbutton {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    margin-top: 9%;
+    margin-right: 15%;
+    float: right;
+  }
+  .topcolumn1 {
+    height: 0%;
+  }
+  .formcolumn.phone {
+    height: 50%;
+  }
+  .formwrapper.phone {
+    margin-bottom: 15px;
+  }
+  .formbtn.phone {
+    letter-spacing: 1px;
+  }
+  .footer {
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    float: right;
+  }
+  .mailheader {
+    display: inline-block;
+    width: 100%;
+    margin-top: 38px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 23px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .footercon {
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .educationsection {
+    width: 100%;
+    height: 481px;
+    float: right;
+  }
+  .navsec {
+    position: static;
+    display: none;
+    width: auto;
+    height: auto;
+  }
+  .phonenavlink {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 0, .78);
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+  }
+  .outdent {
+    margin-left: -18px;
+    font-weight: 400;
+  }
+  .outdentphone {
+    margin-left: -16px;
+  }
+  .moocsdiv {
+    height: 80px;
+  }
+  .moocssection {
+    width: 100%;
+    margin-bottom: -15px;
+    padding-bottom: 0px;
+  }
+  .moocimg {
+    width: 33%;
+    height: 100%;
+    padding-bottom: 0px;
+    float: left;
+  }
+  .greekbtn {
+    padding: 5px;
+    font-size: 9px;
+    line-height: 9px;
+  }
+  .bbrand {
+    padding-left: 0px;
+  }
+  .opennav {
+    background-color: hsla(95, 46%, 70%, .84);
+  }
+  .successmsg {
+    display: none;
+    text-align: center;
+  }
+}
