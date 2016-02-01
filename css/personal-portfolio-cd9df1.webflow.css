@@ -50,6 +50,8 @@
 }
 
 .navbarlink.contact.greek {
+  font-size: 2vw;
+  line-height: 2vw;
   text-transform: none;
 }
 
@@ -58,6 +60,8 @@
 }
 
 .navbarlink.contact.work {
+  font-size: 2vw;
+  line-height: 2vw;
   text-transform: none;
 }
 
@@ -66,6 +70,8 @@
 }
 
 .navbarlink.contact.con {
+  font-size: 2vw;
+  line-height: 2vw;
   text-transform: none;
 }
 
@@ -74,10 +80,14 @@
 }
 
 .navbarlink.contact.tools {
+  font-size: 2vw;
+  line-height: 2vw;
   text-transform: none;
 }
 
 .navbarlink.contact.tools.w--current {
+  font-size: 2vw;
+  line-height: 2vw;
   font-weight: 600;
 }
 
@@ -87,6 +97,8 @@
 }
 
 .navbarlink.greek.work {
+  font-size: 2vw;
+  line-height: 2vw;
   text-transform: none;
 }
 
@@ -138,8 +150,8 @@
   padding-top: 10px;
   float: right;
   color: rgba(0, 0, 0, .71);
-  font-size: 37px;
-  line-height: 37px;
+  font-size: 2.7vw;
+  line-height: 2.7vw;
   font-weight: 400;
   text-align: left;
   text-shadow: -1px 1px 1px hsla(0, 0%, 100%, .38);
@@ -150,37 +162,39 @@
 }
 
 .topheadingpersonalmessage.work.skills.land {
-  width: 62%;
-  margin-top: 24%;
+  width: 65%;
+  margin-top: 16%;
+  float: right;
   font-family: 'Open Sans', sans-serif;
-  font-size: 37px;
-  line-height: 39px;
+  font-size: 2.7vw;
+  line-height: 2.7vw;
   font-weight: 400;
   text-align: left;
 }
 
 .topheadingpersonalmessage.work.skills.land.home {
-  width: 59%;
-  margin-top: 26%;
+  width: 66%;
+  margin-top: 23%;
   font-family: 'Varela Round', sans-serif;
-  font-size: 37px;
-  line-height: 37px;
+  font-size: 2.7vw;
+  line-height: 2.7vw;
+  text-align: left;
 }
 
 .topheadingpersonalmessage.work.tablet {
   width: 62%;
-  margin-top: 25%;
+  margin-top: 21%;
 }
 
 .topheadingpersonalmessage.contact {
   display: block;
   width: 55%;
-  margin-top: 30%;
+  margin-top: 28%;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Open Sans', sans-serif;
-  font-size: 37px;
-  line-height: 39px;
+  font-size: 2.7vw;
+  line-height: 2.7vw;
   font-weight: 400;
   text-align: left;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .38);
@@ -188,26 +202,32 @@
 
 .topheadingpersonalmessage.contact.landscape {
   display: block;
+  margin-top: 33%;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Varela Round', sans-serif;
-  font-size: 37px;
-  line-height: 37px;
+  font-size: 2.7vw;
+  line-height: 2.7vw;
 }
 
 .topheadingpersonalmessage.phone {
+  display: block;
+  width: 70%;
   margin-bottom: 20px;
+  float: right;
   font-family: 'Open Sans', sans-serif;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 3.7vw;
+  line-height: 3.7vw;
   font-weight: 400;
   text-align: right;
 }
 
 .topheadingpersonalmessage.phone.home {
-  width: 100%;
+  width: 70%;
+  float: right;
   font-family: 'Varela Round', sans-serif;
-  font-size: 3.3em;
+  font-size: 3.6vw;
+  line-height: 3.6vw;
   font-weight: 400;
   text-align: right;
 }
@@ -242,6 +262,7 @@
   background-image: url('../images/pattern_1x.png');
   background-position: 50% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
   opacity: 1;
 }
 
@@ -255,6 +276,8 @@
   right: 0px;
   bottom: 0px;
   height: auto;
+  font-size: 3.6vw;
+  line-height: 3.6vw;
 }
 
 .row {
@@ -273,6 +296,8 @@
   margin-left: 0px;
   padding-left: 0px;
   float: none;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
 }
 
 .contactsection {
@@ -288,6 +313,9 @@
 .contactsection.phone {
   width: 88%;
   height: auto;
+  background-image: url('../images/photo-1416339684178-3a239570f315.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
 }
 
 .overlaydiv {
@@ -307,12 +335,12 @@
 }
 
 .overlaydiv.edu {
-  background-color: hsla(0, 0%, 100%, .65);
+  background-color: hsla(0, 0%, 100%, .84);
 }
 
 .overlaydiv.mooc {
   position: relative;
-  background-color: hsla(95, 46%, 70%, .75);
+  background-color: hsla(95, 46%, 70%, .5);
 }
 
 .workrow {
@@ -364,7 +392,7 @@
 }
 
 .contactcolumn2.phone {
-  height: 61%;
+  height: 100%;
   padding-top: 0%;
 }
 
@@ -375,7 +403,7 @@
 .linkblock {
   display: inline-block;
   overflow: hidden;
-  width: 49%;
+  width: 50%;
   height: 50%;
   max-height: 50%;
   max-width: 50%;
@@ -417,12 +445,10 @@
 }
 
 .namefield.phone {
-  padding-top: auto;
-  padding-bottom: auto;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
 }
 
 .mailfield {
@@ -437,9 +463,8 @@
 }
 
 .mailfield.phone {
-  padding-top: auto;
-  padding-bottom: auto;
-  line-height: 16px;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
 }
 
 .textfield {
@@ -458,9 +483,8 @@
 .textfield.phone {
   overflow: auto;
   height: 150px;
-  padding-top: auto;
-  padding-bottom: auto;
-  line-height: 16px;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
 }
 
 .formcolumn {
@@ -504,11 +528,9 @@
 }
 
 .formbtn.phone {
-  padding-top: auto;
-  padding-bottom: auto;
   border-radius: 0px 0px 5px 5px;
-  font-size: 21px;
-  line-height: 21px;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
   letter-spacing: 1px;
 }
 
@@ -516,10 +538,9 @@
   display: block;
   width: 88%;
   height: auto;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 0px;
+  margin: 0px auto;
+  padding-top: 30px;
+  padding-bottom: 0px;
   float: right;
   background-color: #fff;
   font-family: 'Varela Round', sans-serif;
@@ -531,13 +552,14 @@
   margin-top: 29px;
   margin-right: 0px;
   margin-bottom: 29px;
+  padding-bottom: 10px;
   -webkit-transition: -webkit-transform 1033ms linear;
   transition: -webkit-transform 1033ms linear;
   transition: transform 1033ms linear;
   transition: transform 1033ms linear, -webkit-transform 1033ms linear;
   color: rgba(51, 51, 51, .78);
-  font-size: 67px;
-  line-height: 67px;
+  font-size: 4.9vw;
+  line-height: 4.9vw;
   font-weight: 400;
   text-align: center;
   letter-spacing: 2px;
@@ -568,7 +590,7 @@
 
 .educationsection {
   width: 88%;
-  height: 500px;
+  height: 534px;
   float: right;
   background-image: url('../images/benefits-of-online-education.jpg');
   background-position: 50% 100%;
@@ -704,8 +726,8 @@
 .outdent {
   margin-left: -26px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 37px;
-  line-height: 37px;
+  font-size: 2.7vw;
+  line-height: 2.7vw;
   font-weight: 400;
   letter-spacing: 0px;
   text-shadow: 0 1px 1px hsla(0, 0%, 100%, .38);
@@ -752,8 +774,8 @@
   transition: transform 450ms linear;
   transition: transform 450ms linear, -webkit-transform 450ms linear;
   font-family: 'Varela Round', sans-serif;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
   font-weight: 700;
 }
 
@@ -785,8 +807,8 @@
   transition: transform 467ms linear;
   transition: transform 467ms linear, -webkit-transform 467ms linear;
   font-family: 'Varela Round', sans-serif;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
   font-weight: 700;
 }
 
@@ -824,6 +846,29 @@
 .instructionsspan {
   color: rgba(0, 0, 0, .6);
   font-size: 15px;
+}
+
+.atributes {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin: 0px auto;
+  float: none;
+  font-size: 9px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.keyboardatribute {
+  float: none;
+}
+
+.atr {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 html.w-mod-js *[data-ix="navtrigger"] {
@@ -891,13 +936,17 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     font-size: 16px;
     line-height: 16px;
   }
+  .navbarlink.contact.greek.tools.w--current {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
   .navbarlink.contact.work {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
   }
   .navbarlink.contact.con {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
   }
   .navbarlink.contact.con.w--current {
     font-size: 21px;
@@ -906,6 +955,10 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .navbarlink.contact.tools {
     font-size: 21px;
     line-height: 21px;
+  }
+  .navbarlink.contact.tools.w--current {
+    font-size: 2.2vw;
+    line-height: 2.2vw;
   }
   .navbarlink.greek {
     font-family: 'Open Sans', sans-serif;
@@ -932,52 +985,52 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   }
   .topheadingpersonalmessage.work {
     width: 79%;
-    margin-top: 21%;
+    margin-top: 18%;
     padding-right: 10px;
     float: right;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
   }
   .topheadingpersonalmessage.work.skills {
     margin-top: 43%;
   }
   .topheadingpersonalmessage.work.skills.land {
-    margin-top: 43%;
-    font-size: 21px;
-    line-height: 23px;
+    margin-top: 49%;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
     font-weight: 400;
   }
   .topheadingpersonalmessage.work.skills.land.home {
-    margin-top: 46%;
+    margin-top: 39%;
     float: none;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
   }
   .topheadingpersonalmessage.work.tablet {
     width: 82%;
     margin-top: 19%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 21px;
-    line-height: 23px;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
     font-weight: 400;
   }
   .topheadingpersonalmessage.contact {
     width: 67%;
-    margin-top: 55%;
-    font-size: 21px;
-    line-height: 23px;
-    font-weight: 400;
+    margin-top: 49%;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
+    font-weight: 600;
   }
   .topheadingpersonalmessage.contact.landscape {
-    margin-top: 47%;
-    font-size: 28px;
-    line-height: 30px;
+    margin-top: 45%;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
   }
   .topheadingpersonalmessage.phone {
-    width: 71%;
+    width: 70%;
     float: right;
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 3.7vw;
+    line-height: 3.7vw;
     font-weight: 400;
     text-align: right;
   }
@@ -988,9 +1041,12 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     bottom: 0px;
     width: 70%;
     float: right;
-    font-size: 37px;
-    line-height: 37px;
+    font-size: 3.7vw;
+    line-height: 3.7vw;
     font-weight: 400;
+  }
+  .freelancespan {
+    line-height: 3.7vw;
   }
   .myworksection {
     width: 84%;
@@ -1044,16 +1100,32 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .imagediv {
     margin-right: 0px;
   }
+  .namefield.phone {
+    font-size: 1.7vw;
+    line-height: 1.7vw;
+  }
+  .mailfield.phone {
+    font-size: 1.7vw;
+    line-height: 1.7vw;
+  }
+  .textfield.phone {
+    font-size: 1.7vw;
+    line-height: 1.7vw;
+  }
   .formbtn.phone {
+    font-size: 1.7vw;
+    line-height: 1.7vw;
     letter-spacing: 0px;
   }
   .footer {
     width: 84%;
     height: 8%;
+    padding-top: 20px;
+    padding-bottom: 0px;
   }
   .mailheader {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
   }
   .educationsection {
     width: 84%;
@@ -1090,8 +1162,8 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   }
   .outdent {
     margin-left: -18px;
-    font-size: 21px;
-    line-height: 23px;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
     font-weight: 400;
   }
   .moocsdiv {
@@ -1104,13 +1176,23 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   }
   .greekbtn {
     padding: 5px;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 1.3vw;
+    line-height: 1.3vw;
   }
   .englishbtn {
     padding: 5px;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+  }
+  .atributes {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    text-align: center;
+  }
+  .keyboardatribute {
+    float: none;
   }
 }
 
@@ -1133,16 +1215,30 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     line-height: 18px;
   }
   .navbarlink.contact.greek {
-    font-size: 16px;
-    line-height: 16px;
+    padding-right: 20px;
+    font-size: 2vw;
+    line-height: 2vw;
   }
   .navbarlink.contact.greek.w--current {
     float: right;
-    font-size: 15px;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+  }
+  .navbarlink.contact.greek.tools {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+  .navbarlink.contact.greek.tools.w--current {
+    font-size: 2.2vw;
+    line-height: 2.2vw;
   }
   .navbarlink.contact.con {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+  }
+  .navbarlink.contact.tools {
+    font-size: 2.2vw;
+    line-height: 2.2vw;
   }
   .navbarlink.greek {
     font-size: 15px;
@@ -1151,10 +1247,14 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .navbarlink.greek.w--current {
     float: right;
   }
+  .navbarlink.greek.work {
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+  }
   .navbarlink.greek.work.w--current {
     float: right;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 2vw;
+    line-height: 2vw;
   }
   .topsectionvideo {
     width: 82%;
@@ -1168,54 +1268,64 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .topheadingpersonalmessage.work {
     display: block;
     width: 56%;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-right: auto;
     margin-left: auto;
     float: none;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
     text-align: center;
   }
   .topheadingpersonalmessage.work.skills {
     margin-top: 15%;
   }
   .topheadingpersonalmessage.work.skills.land {
+    width: 45%;
     margin-top: 8%;
+    float: none;
     font-weight: 400;
+    text-align: center;
   }
   .topheadingpersonalmessage.work.skills.land.home {
-    margin-top: 3%;
+    width: 54%;
+    margin-top: 11%;
+    text-align: center;
     text-shadow: 0 1px 1px hsla(0, 0%, 100%, .94);
   }
   .topheadingpersonalmessage.work.tablet {
-    margin-top: 12%;
+    width: 63%;
+    margin-top: 7%;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
   }
   .topheadingpersonalmessage.contact {
     display: block;
     width: 78%;
+    margin-top: 52%;
     margin-right: auto;
     margin-left: auto;
     padding-right: 10px;
-    font-weight: 400;
+    font-weight: 600;
   }
   .topheadingpersonalmessage.contact.landscape {
     width: 90%;
     margin-top: 53%;
     float: left;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
     text-align: left;
   }
   .topheadingpersonalmessage.phone {
-    width: 68%;
+    width: 70%;
     height: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 38px;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 25px;
-    line-height: 25px;
+    float: right;
+    font-size: 3.7vw;
+    line-height: 3.7vw;
   }
   .topheadingpersonalmessage.phone.home {
     position: static;
@@ -1228,10 +1338,11 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-top: 0%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     float: right;
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 3.7vw;
+    line-height: 3.7vw;
     font-weight: 400;
     text-align: right;
   }
@@ -1249,7 +1360,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    height: 100%;
+    height: auto;
   }
   .video {
     height: auto;
@@ -1303,19 +1414,21 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     text-align: left;
   }
   .formbtn.phone {
-    font-size: 21px;
+    font-size: 1.7vw;
     letter-spacing: 0px;
   }
   .footer {
     width: 82%;
     height: 8%;
+    padding-top: 11px;
+    padding-bottom: 0px;
   }
   .mailheader {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
   }
   .footercon {
     padding-top: 0px;
@@ -1389,6 +1502,10 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .greekbtn {
     padding: 5px;
   }
+  .englishbtn {
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1427,32 +1544,38 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   }
   .topheadingpersonalmessage.work {
     margin-top: 11%;
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
     text-align: center;
   }
   .topheadingpersonalmessage.work.skills {
     text-align: left;
   }
   .topheadingpersonalmessage.work.skills.land {
-    margin-top: 1%;
+    width: 61%;
+    margin-top: 8%;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
     font-weight: 400;
     text-align: center;
   }
   .topheadingpersonalmessage.work.skills.land.home {
-    margin-top: 6%;
-    font-size: 21px;
-    line-height: 23px;
+    margin-top: 4%;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
+    text-align: center;
   }
   .topheadingpersonalmessage.work.tablet {
+    font-size: 5.7vw;
+    line-height: 5.7vw;
     font-weight: 400;
   }
   .topheadingpersonalmessage.contact {
     width: 69%;
     margin-top: auto;
-    font-size: 21px;
-    line-height: 23px;
-    font-weight: 400;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
+    font-weight: 600;
     text-align: center;
   }
   .topheadingpersonalmessage.phone {
@@ -1467,8 +1590,8 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: rgba(0, 0, 0, .46);
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 6.3vw;
+    line-height: 6.3vw;
     text-align: center;
   }
   .topheadingpersonalmessage.phone.home {
@@ -1480,18 +1603,21 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     height: 100%;
     margin-top: 40%;
     padding-top: 10px;
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 6.3vw;
+    line-height: 6.3vw;
     text-align: center;
+  }
+  .namespan {
+    letter-spacing: 0px;
   }
   .developerspan {
     display: inline-block;
-    line-height: 18px;
+    line-height: 6.3vw;
     letter-spacing: -1px;
   }
   .freelancespan {
-    font-size: 19px;
-    line-height: 21px;
+    font-size: 6.3vw;
+    line-height: 6.3vw;
   }
   .myworksection {
     width: 100%;
@@ -1578,6 +1704,20 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .topcolumn1 {
     height: 0%;
   }
+  .namefield.phone {
+    height: 50px;
+    padding-top: 8px;
+    font-size: 3.7vw;
+    line-height: 3.7vw;
+  }
+  .mailfield.phone {
+    font-size: 3.7vw;
+    line-height: 3.7vw;
+  }
+  .textfield.phone {
+    font-size: 3.7vw;
+    line-height: 3.7vw;
+  }
   .formcolumn.phone {
     height: 50%;
   }
@@ -1585,12 +1725,15 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-bottom: 15px;
   }
   .formbtn.phone {
+    font-size: 3.7vw;
+    line-height: 3.7vw;
     letter-spacing: 1px;
   }
   .footer {
     width: 100%;
     height: 100%;
-    padding-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 0px;
     float: right;
   }
   .mailheader {
@@ -1599,8 +1742,8 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-top: 38px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 6.3vw;
+    line-height: 6.3vw;
     text-align: center;
   }
   .footercon {
@@ -1633,8 +1776,13 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     text-align: center;
     text-transform: none;
   }
+  .workcol1 {
+    height: 40%;
+  }
   .outdent {
     margin-left: -18px;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
     font-weight: 400;
   }
   .outdentphone {
@@ -1654,10 +1802,17 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     padding-bottom: 0px;
     float: left;
   }
+  .projectspan {
+    letter-spacing: 0px;
+  }
   .greekbtn {
     padding: 5px;
-    font-size: 9px;
-    line-height: 9px;
+    font-size: 2.7vw;
+    line-height: 2.7vw;
+  }
+  .englishbtn {
+    font-size: 2.3vw;
+    line-height: 2.3vw;
   }
   .bbrand {
     padding-left: 0px;
@@ -1670,3 +1825,4 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     text-align: center;
   }
 }
+
