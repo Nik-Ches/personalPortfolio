@@ -403,10 +403,10 @@
 .linkblock {
   display: inline-block;
   overflow: hidden;
-  width: 50%;
+  width: 49%;
   height: 50%;
   max-height: 50%;
-  max-width: 50%;
+  max-width: 49%;
   margin: 0px;
   padding: 17px;
 }
@@ -1825,4 +1825,3 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     text-align: center;
   }
 }
-
