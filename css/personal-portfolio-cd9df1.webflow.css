@@ -677,6 +677,10 @@
   text-align: center;
 }
 
+.skillsimg.bootstrap {
+  margin-top: 27%;
+}
+
 .skillsimg.git {
   margin-top: 29%;
 }
