@@ -50,8 +50,11 @@
 }
 
 .navbarlink.contact.greek {
-  font-size: 2vw;
-  line-height: 2vw;
+  margin-right: 15px;
+  padding-right: 0px;
+  font-size: 1.6vw;
+  line-height: 1.7vw;
+  text-align: center;
   text-transform: none;
 }
 
@@ -59,9 +62,18 @@
   text-transform: none;
 }
 
+.navbarlink.contact.greek.tools {
+  font-size: 1.6vw;
+  line-height: 1.7vw;
+}
+
+.navbarlink.contact.greek.tools.w--current {
+  text-align: center;
+}
+
 .navbarlink.contact.work {
-  font-size: 2vw;
-  line-height: 2vw;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
   text-transform: none;
 }
 
@@ -70,8 +82,8 @@
 }
 
 .navbarlink.contact.con {
-  font-size: 2vw;
-  line-height: 2vw;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
   text-transform: none;
 }
 
@@ -80,14 +92,15 @@
 }
 
 .navbarlink.contact.tools {
-  font-size: 2vw;
-  line-height: 2vw;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
   text-transform: none;
 }
 
 .navbarlink.contact.tools.w--current {
-  font-size: 2vw;
-  line-height: 2vw;
+  padding-right: 12px;
+  font-size: 1.8vw;
+  line-height: 1.8vw;
   font-weight: 600;
 }
 
@@ -97,14 +110,23 @@
 }
 
 .navbarlink.greek.work {
-  font-size: 2vw;
-  line-height: 2vw;
+  display: block;
+  width: 100%;
+  padding-right: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6vw;
+  line-height: 1.7vw;
+  text-align: center;
   text-transform: none;
 }
 
 .navbarlink.greek.work.w--current {
+  display: block;
+  margin-right: 0px;
   float: right;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.7vw;
+  line-height: 1.8vw;
 }
 
 .linksmenu {
@@ -217,17 +239,18 @@
   float: right;
   font-family: 'Open Sans', sans-serif;
   font-size: 3.4vw;
-  line-height: 3.1vw;
+  line-height: 3.2vw;
   font-weight: 400;
   text-align: right;
 }
 
 .topheadingpersonalmessage.phone.home {
   width: 70%;
+  margin-bottom: 0px;
   float: right;
   font-family: 'Varela Round', sans-serif;
-  font-size: 3.4vw;
-  line-height: 3.3vw;
+  font-size: 3.6vw;
+  line-height: 3.6vw;
   font-weight: 400;
   text-align: right;
 }
@@ -313,7 +336,7 @@
 .contactsection.phone {
   width: 88%;
   height: auto;
-  background-image: url('../images/photo-1416339684178-3a239570f315.jpg');
+  background-image: url('../images/photo-1416339684178-3a239570f315_1.jpg');
   background-position: 50% 0px;
   background-size: cover;
 }
@@ -348,6 +371,10 @@
   height: 100%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.workrow.tablet {
+  width: 100%;
 }
 
 .sampleimage {
@@ -670,23 +697,27 @@
 .skillsimg {
   position: static;
   display: inline-block;
-  margin-top: 21%;
+  margin-top: 22%;
   margin-right: auto;
   margin-left: 0px;
   float: none;
   text-align: center;
 }
 
-.skillsimg.bootstrap {
-  margin-top: 27%;
-}
-
 .skillsimg.git {
   margin-top: 29%;
 }
 
+.skillsimg.git.land {
+  margin-top: 25%;
+}
+
 .skillsimg.github {
   margin-top: 30%;
+}
+
+.skillsimg.github.landscape {
+  margin-top: 27%;
 }
 
 .skillsimg.webflow {
@@ -697,12 +728,24 @@
   margin-top: 32%;
 }
 
+.skillsimg.atom.land {
+  margin-top: 30%;
+}
+
 .skillsimg.ubuntu {
   margin-top: 21%;
 }
 
 .skillsimg.chrome {
   margin-top: 28%;
+}
+
+.skillsimg.chrome.land {
+  margin-top: 24%;
+}
+
+.skillsimg.gimp.land {
+  margin-top: 17%;
 }
 
 .leftarrow {
@@ -932,35 +975,50 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .navbarlink.contact.w--current {
     line-height: 16px;
   }
+  .navbarlink.contact.greek {
+    margin-right: 0px;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+  }
   .navbarlink.contact.greek.w--current {
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 1.9vw;
+    line-height: 1.9vw;
   }
   .navbarlink.contact.greek.tools {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
   }
   .navbarlink.contact.greek.tools.w--current {
-    font-size: 2vw;
-    line-height: 2vw;
+    margin-right: 0px;
+    font-size: 1.9vw;
+    line-height: 1.9vw;
   }
   .navbarlink.contact.work {
+    padding-right: 0px;
     font-size: 2.2vw;
     line-height: 2.2vw;
   }
+  .navbarlink.contact.work.w--current {
+    padding-right: 0px;
+  }
   .navbarlink.contact.con {
+    padding-right: 0px;
     font-size: 2.2vw;
     line-height: 2.2vw;
   }
   .navbarlink.contact.con.w--current {
-    font-size: 21px;
-    line-height: 21px;
+    margin-right: -1px;
+    font-size: 2.3vw;
+    line-height: 2.3vw;
   }
   .navbarlink.contact.tools {
-    font-size: 21px;
-    line-height: 21px;
+    padding-right: 0px;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
   }
   .navbarlink.contact.tools.w--current {
+    display: block;
+    padding-right: 0px;
     font-size: 2.2vw;
     line-height: 2.2vw;
   }
@@ -968,6 +1026,10 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 16px;
+  }
+  .navbarlink.greek.work {
+    font-size: 1.8vw;
+    line-height: 1.8vw;
   }
   .navbarlink.greek.work.w--current {
     float: right;
@@ -1044,6 +1106,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     right: 0px;
     bottom: 0px;
     width: 70%;
+    margin-bottom: 0px;
     float: right;
     font-size: 3.7vw;
     line-height: 3.7vw;
@@ -1137,17 +1200,26 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .navsec {
     width: 16%;
   }
+  .navcon {
+    padding-right: 12px;
+  }
   .logolinkblock {
     display: block;
   }
   .skillsimg {
-    margin-top: 30%;
+    margin-top: 46%;
   }
   .skillsimg.git {
     margin-top: 43%;
   }
+  .skillsimg.git.land {
+    margin-top: 45%;
+  }
   .skillsimg.github {
     margin-top: 42%;
+  }
+  .skillsimg.github.landscape {
+    margin-top: 49%;
   }
   .skillsimg.webflow {
     margin-top: 41%;
@@ -1155,14 +1227,23 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .skillsimg.atom {
     margin-top: 46%;
   }
+  .skillsimg.atom.land {
+    margin-top: 49%;
+  }
   .skillsimg.ubuntu.land {
     margin-top: 23%;
   }
   .skillsimg.ubuntu.lans {
-    margin-top: 31%;
+    margin-top: 40%;
   }
   .skillsimg.chrome {
     margin-top: 43%;
+  }
+  .skillsimg.chrome.land {
+    margin-top: 44%;
+  }
+  .skillsimg.gimp.land {
+    margin-top: 24%;
   }
   .outdent {
     margin-left: -18px;
@@ -1219,9 +1300,9 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     line-height: 18px;
   }
   .navbarlink.contact.greek {
-    padding-right: 20px;
-    font-size: 2vw;
-    line-height: 2vw;
+    padding-right: 0px;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
   }
   .navbarlink.contact.greek.w--current {
     float: right;
@@ -1236,13 +1317,21 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     font-size: 2.2vw;
     line-height: 2.2vw;
   }
+  .navbarlink.contact.work {
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+  }
   .navbarlink.contact.con {
-    font-size: 2.2vw;
-    line-height: 2.2vw;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
   }
   .navbarlink.contact.tools {
-    font-size: 2.2vw;
+    font-size: 2.4vw;
     line-height: 2.2vw;
+  }
+  .navbarlink.contact.tools.w--current {
+    font-size: 2.5vw;
+    line-height: 2.5vw;
   }
   .navbarlink.greek {
     font-size: 15px;
@@ -1256,7 +1345,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     line-height: 2.2vw;
   }
   .navbarlink.greek.work.w--current {
-    float: right;
+    float: none;
     font-size: 2vw;
     line-height: 2vw;
   }
@@ -1276,7 +1365,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-right: auto;
     margin-left: auto;
     float: none;
-    font-size: 2.7vw;
+    font-size: 2.9vw;
     line-height: 2.7vw;
     text-align: center;
   }
@@ -1287,20 +1376,23 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     width: 45%;
     margin-top: 8%;
     float: none;
+    font-size: 2.8vw;
+    line-height: 2.8vw;
     font-weight: 400;
     text-align: center;
   }
   .topheadingpersonalmessage.work.skills.land.home {
     width: 54%;
     margin-top: 11%;
+    font-size: 2.9vw;
     text-align: center;
     text-shadow: 0 1px 1px hsla(0, 0%, 100%, .94);
   }
   .topheadingpersonalmessage.work.tablet {
     width: 63%;
     margin-top: 7%;
-    font-size: 2.7vw;
-    line-height: 2.7vw;
+    font-size: 2.8vw;
+    line-height: 2.8vw;
   }
   .topheadingpersonalmessage.contact {
     display: block;
@@ -1309,13 +1401,15 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-right: auto;
     margin-left: auto;
     padding-right: 10px;
+    font-size: 2.8vw;
+    line-height: 2.8vw;
     font-weight: 600;
   }
   .topheadingpersonalmessage.contact.landscape {
     width: 90%;
     margin-top: 53%;
     float: left;
-    font-size: 2.7vw;
+    font-size: 2.9vw;
     line-height: 2.7vw;
     text-align: left;
   }
@@ -1343,7 +1437,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     float: right;
     font-size: 3.7vw;
     line-height: 3.7vw;
@@ -1408,6 +1502,15 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     height: 0px;
     padding-right: 0px;
   }
+  .namefield.phone {
+    font-size: 1.9vw;
+  }
+  .mailfield.phone {
+    font-size: 1.9vw;
+  }
+  .textfield.phone {
+    font-size: 1.9vw;
+  }
   .formcolumn {
     display: block;
     margin-right: auto;
@@ -1418,7 +1521,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     text-align: left;
   }
   .formbtn.phone {
-    font-size: 1.7vw;
+    font-size: 1.9vw;
     letter-spacing: 0px;
   }
   .footer {
@@ -1495,6 +1598,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-top: 1%;
   }
   .outdent {
+    margin-left: -13px;
     font-weight: 400;
   }
   .moocssection {
@@ -1548,7 +1652,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   }
   .topheadingpersonalmessage.work {
     margin-top: 11%;
-    font-size: 4.7vw;
+    font-size: 4.9vw;
     line-height: 4.7vw;
     text-align: center;
   }
@@ -1565,7 +1669,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   }
   .topheadingpersonalmessage.work.skills.land.home {
     margin-top: 4%;
-    font-size: 4.7vw;
+    font-size: 4.9vw;
     line-height: 4.7vw;
     text-align: center;
   }
@@ -1577,7 +1681,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .topheadingpersonalmessage.contact {
     width: 69%;
     margin-top: auto;
-    font-size: 4.7vw;
+    font-size: 4.9vw;
     line-height: 4.7vw;
     font-weight: 600;
     text-align: center;
@@ -1607,6 +1711,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     height: 100%;
     margin-top: 40%;
     padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 6.3vw;
     line-height: 6.3vw;
     text-align: center;
@@ -1711,15 +1816,15 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .namefield.phone {
     height: 50px;
     padding-top: 8px;
-    font-size: 3.7vw;
+    font-size: 3.9vw;
     line-height: 3.7vw;
   }
   .mailfield.phone {
-    font-size: 3.7vw;
+    font-size: 3.9vw;
     line-height: 3.7vw;
   }
   .textfield.phone {
-    font-size: 3.7vw;
+    font-size: 3.9vw;
     line-height: 3.7vw;
   }
   .formcolumn.phone {
@@ -1729,7 +1834,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     margin-bottom: 15px;
   }
   .formbtn.phone {
-    font-size: 3.7vw;
+    font-size: 3.9vw;
     line-height: 3.7vw;
     letter-spacing: 1px;
   }
@@ -1828,4 +1933,8 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     display: none;
     text-align: center;
   }
+  .hamburger {
+    color: hsla(95, 46%, 70%, .98);
+  }
 }
+
