@@ -263,11 +263,49 @@
 }
 
 .developerspan {
+  display: inline-block;
   font-family: 'Varela Round', sans-serif;
   color: #abd58e;
   font-weight: 700;
   letter-spacing: -1px;
 }
+
+#animationSpan {
+
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  -webkit-animation: scale 2s linear infinite;
+  animation: scale 2s linear infinite;
+}
+
+
+@-webkit-keyframes scale {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+        color: white;
+      }
+    100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    @keyframes scale {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+            transform: scale(1.1, 1.1);
+            color: white;
+          }
+        100% {
+            transform: scale(1, 1);
+          }
+        }
+
+
 
 .freelancespan {
   font-family: 'Varela Round', sans-serif;
@@ -971,6 +1009,7 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .navbarlink.contact {
     font-size: 16px;
     line-height: 16px;
+
   }
   .navbarlink.contact.w--current {
     line-height: 16px;
@@ -1937,4 +1976,3 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     color: hsla(95, 46%, 70%, .98);
   }
 }
-
