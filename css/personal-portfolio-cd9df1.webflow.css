@@ -17,15 +17,18 @@
 }
 
 .linkedinIcon {
-  width: 70px;
-   height: 70px;
+  width: 87px;
+   height: 22px;
+   padding-top: 3px;
+   padding-bottom: 3px;
   padding-right: 5px;
+  padding-left: 5px;
 }
-
 .githubIcon {
   width: 50px;
-   height: 50px;
-  padding: 0;
+   height: 22px;
+   padding-top: 3px;
+   padding-bottom: 3px;
 }
 
 .socialIcons {
@@ -1353,6 +1356,30 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
   .navbar {
     width: 18%;
   }
+
+  .socialIcons {
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .linkedinIcon {
+    width: 87px;
+     height: 22px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .githubIcon {
+    width: 50px;
+     height: 22px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+  }
+
+
   .navbarlink {
     display: block;
     text-align: right;
@@ -1692,6 +1719,29 @@ html.w-mod-js *[data-ix="navtrigger-6"] {
     float: none;
     background-color: #fff;
   }
+
+  .socialIcons {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .linkedinIcon {
+    width: 87px;
+     height: 22px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .githubIcon {
+    width: 50px;
+     height: 22px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
   .navbarlink {
     padding-right: 5px;
     padding-left: 5px;
