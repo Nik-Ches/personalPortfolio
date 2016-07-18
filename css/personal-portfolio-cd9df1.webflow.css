@@ -9,6 +9,29 @@
   background-color: #fff;
 }
 
+.socialIcons {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.linkedinIcon {
+  width: 70px;
+   height: 70px;
+  padding-right: 5px;
+}
+
+.githubIcon {
+  width: 50px;
+   height: 50px;
+  padding: 0;
+}
+
+.socialIcons {
+  position: absolute;
+}
+
 .navbarlink {
   position: static;
   display: block;
@@ -76,6 +99,10 @@
   font-size: 1.7vw;
   line-height: 1.7vw;
   text-transform: none;
+}
+
+.w-section navsec {
+  position: relative;
 }
 
 .navbarlink.contact.work.w--current {
