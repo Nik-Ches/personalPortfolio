@@ -58,7 +58,7 @@
       <div class="w-col w-col-2 w-col-stack topcolumn1"></div>
       <div class="w-col w-col-10 w-col-stack w-clearfix columnwithtitle">
 
-        <h1 class="topheadingpersonalmessage phone">Hi, my name is <span class="namespan">Nik</span> and i am a self taught&nbsp;<span class="developerspan">web developer</span> who loves building modern<span style="letter-spacing: -1px; line-height: 32px;" class="freelancespan"><strong class="projectspan"> websites </strong></span>and web <a href="https://codepen.io/nikches/#"><span id="animationSpan" class="developerspan">animations</span></a></h1>
+        <h1 id="topheader" class="topheadingpersonalmessage phone home">Hi, my name is <span class="namespan">Nik</span> and i am a self taught&nbsp;<span class="developerspan">web developer</span> who loves building modern<span style="letter-spacing: -1px; line-height: 32px;" class="freelancespan"><strong class="projectspan"> websites </strong></span>and web <a href="https://codepen.io/nikches/#"><span id="animationSpan" class="developerspan">animations</span></a></h1>
       </div>
     </div>
   </div>

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html data-wf-site="56a100172f2ef2655bb9311b" data-wf-page="56a100172f2ef2655bb9311c">
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Thu Feb 04 2016 21:34:35 GMT+0000 (UTC) -->
+<html data-wf-site="56a100172f2ef2655bb9311b" data-wf-page="56aa790d6b6bb35e056756b8">
 <head>
-  <script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=12380'></script>
   <meta charset="utf-8">
-  <title>Web development</title>
+  <title>greek</title>
+  <meta property="og:title" content="greek">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
-
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/personal-portfolio-cd9df1.webflow.css">
-  <link rel="stylesheet" href="css/animate.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -19,7 +19,6 @@
       }
     });
   </script>
-
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.ico" sizes="32x32" />
   <link rel="icon" type="image/png" href="images/favicon.ico" sizes="16x16" />
@@ -29,11 +28,11 @@
 <body class="w-clearfix body">
   <div data-collapse="medium" data-animation="default" data-duration="400" data-contain="1" class="w-nav">
     <div class="w-container w-hidden-main w-hidden-medium w-hidden-small navbar">
-      <a href="#" class="w-nav-brand w-clearfix bbrand"><img width="83" src="images/1.png">
+      <a href="#" class="w-nav-brand brand"><img width="83" src="images/1.png">
       </a>
-      <nav role="navigation" class="w-nav-menu opennav"><a href="#workSec" data-ix="navtrigger" class="w-nav-link phonenavlink">My work</a><a href="#contactSec" data-ix="navtrigger-2" class="w-nav-link phonenavlink">Contact</a><a href="#education" data-ix="navtrigger-3" class="w-nav-link phonenavlink">Skill &amp; tools</a>
+      <nav role="navigation" class="w-nav-menu opennav"><a href="#workSec" data-ix="navtrigger" class="w-nav-link phonenavlink">ΔΟΥΛΕΙΑ</a><a href="#contactSec" data-ix="navtrigger-2" class="w-nav-link phonenavlink">ΕΠΙΚΟΙΝΩΝΙΑ</a><a href="#education" data-ix="navtrigger-3" class="w-nav-link phonenavlink">ΓΝΩΣΕΙΣ &amp; ΕΡΓΑΛΕΙΑ</a>
       </nav>
-      <div class="w-nav-button hamburger">
+      <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
@@ -41,14 +40,14 @@
   <div class="w-section navsec">
     <a href="#topSection" class="w-inline-block logolinkblock"><img width="156" src="images/2.svg" class="logoimg">
     </a>
-    <div class="w-container navcon"><a href="#workSec" data-ix="navtrigger-4" class="navbarlink contact work">My work</a><a href="#contactSSec" data-ix="navtrigger-5" class="navbarlink contact con">Contact</a><a href="#education" data-ix="navtrigger-6" class="navbarlink contact tools">Skills &amp; tools</a>
+    <div class="w-container navcon"><a href="#workSec" data-ix="navtrigger-4" class="navbarlink greek work">H δουλειά μου</a><a href="#contact" data-ix="navtrigger-5" class="navbarlink contact greek">Επικοινωνία</a><a href="#education" data-ix="navtrigger-6" class="navbarlink contact greek tools">Γνώσεις &amp; εργαλεία</a>
     </div>
     <div class="socialIcons">
         <a href="https://gr.linkedin.com/in/nik-ches-149721124"><img class="linkedinIcon" src="images/1468790614_LinkedIn-logo-vector.svg" alt=""></a>
         <a href="https://github.com/Nik-Ches"><img class="githubIcon" src="images/1468790961_logo-github.svg" alt=""></a>
     </div>
   </div>
-  <div id="topSection" class="w-section topsectionvideo"><a href="greek.html" class="w-button greekbtn">Ελληνικά</a>
+  <div id="topSection" class="w-section topsectionvideo"><a href="index.html" class="w-button englishbtn">English</a>
     <div class="w-embed video">
       <video muted="" autoplay="" loop="" style="width:100%; height:auto;  position:absolute; z-index: -1;">
         <source src="http://dl.dropboxusercontent.com/s/96l3y45tz42vdh2/shutterstock_v12448643.mp4?dl=0" type="video/mp4">
@@ -57,8 +56,7 @@
     <div class="w-row row">
       <div class="w-col w-col-2 w-col-stack topcolumn1"></div>
       <div class="w-col w-col-10 w-col-stack w-clearfix columnwithtitle">
-
-        <h1 class="topheadingpersonalmessage phone">Hi, my name is <span class="namespan">Nik</span> and i am a self taught&nbsp;<span class="developerspan">web developer</span> who loves building modern<span style="letter-spacing: -1px; line-height: 32px;" class="freelancespan"><strong class="projectspan"> websites </strong></span>and web <a href="https://codepen.io/nikches/#"><span id="animationSpan" class="developerspan">animations</span></a></h1>
+        <h1 class="topheadingpersonalmessage phone">Γειά, με λένε <span class="namespan">Ανδρόνικο</span> και είμαι ένας αυτοδίδακτος <span class="developerspan">web developer &nbsp;</span>που δημιουργεί σύγχρονα<span style="letter-spacing: -1px; line-height: 32px;" class="freelancespan"><strong class="projectspan"> websites </strong></span>και<a href="https://codepen.io/nikches/#"><span id="animationSpan" class="developerspan"> web animations</span></a></h1>
       </div>
     </div>
   </div>
@@ -66,52 +64,50 @@
     <div class="overlaydiv">
       <div class="w-row workrow tablet">
         <div class="w-col w-col-5 w-clearfix workcolumn1">
-          <h1 id="work" class="topheadingpersonalmessage work"><span class="outdent">...</span>here is a sample of my latest work...</h1>
+          <h1 id="work" class="topheadingpersonalmessage work tablet"><span class="outdent">...εδώ είναι ένα δείγμα της πρόσφατης δουλειάς μου</span>...</h1>
         </div>
         <div class="w-col w-col-7 imagescolumn">
           <a href="http://nik-ches.github.io/freelancer/" target="_blank" class="w-inline-block linkblock">
-            <div class="imagediv"><img src="images/Selection_4.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
+            <div class="imagediv"><img src="images/Selection_003.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
             </div>
           </a>
           <a href="https://nik-ches.github.io/climatenow" target="_blank" class="w-inline-block linkblock">
-            <div class="imagediv"><img src="images/climatenow_1.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
+            <div class="imagediv"><img src="images/climatenow.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
             </div>
           </a>
           <a href="http://nik-ches.github.io/logo/" target="_blank" class="w-inline-block linkblock">
-            <div class="imagediv"><img src="images/Selection_5.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
+            <div class="imagediv"><img src="images/Selection_004.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
             </div>
           </a>
           <a href="http://film-blog.webflow.io/" target="_blank" class="w-inline-block linkblock">
-            <div class="imagediv"><img src="images/Selection_6.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
+            <div class="imagediv"><img src="images/Selection_005.png" data-ix="zoomonhover" class="w-preserve-3d sampleimage link">
             </div>
           </a>
         </div>
       </div>
     </div>
   </div>
-  <div id="contactSSec" class="w-section w-hidden-tiny contactsection phone">
+  <div id="contact" class="w-section w-hidden-tiny contactsection phone">
     <div class="overlaydiv contacts phone">
       <div class="w-row contactrow phone">
         <div class="w-col w-col-6 w-col-small-6 formcolumn phone">
           <div id="wrap" class="w-form formwrapper phone">
             <form id="email-form" name="email-form" data-name="Email Form" class="form phone">
-              <input id="name" type="text" placeholder="Name" name="name" data-name="Name" required="required" class="w-input namefield phone">
-              <input id="email-3" type="email" placeholder="Email " required="required" name="email" data-name="Email" class="w-input mailfield phone">
-              <textarea id="field" placeholder="Your message" name="field" class="w-input textfield phone"></textarea>
-              <input type="submit" value="Submit" data-wait="Please wait..." class="w-button formbtn phone">
+              <input id="name" type="text" placeholder="Όνομα" name="name" data-name="Name" required="required" class="w-input namefield phone">
+              <input id="email" type="email" placeholder="Email " name="email" data-name="Email" required="required" class="w-input mailfield phone">
+              <textarea id="field" placeholder="Το μήνυμα σας" name="field" required="required" class="w-input textfield phone"></textarea>
+              <input type="submit" value="ΑΠΟΣΤΟΛΗ" data-wait="Please wait..." class="w-button formbtn phone">
             </form>
             <div class="w-form-done successmsg">
               <p>Thank you! Your submission has been received!</p>
             </div>
-            <div class="w-form-fail successmsg">
-              <p>Oops! Something went wrong while submitting the form.
-                <br><span class="instructionsspan">You are probably using some browser extension that blocks the outgoing message.<br xmlns="http://www.w3.org/1999/xhtml">Please disable it and send the message again.</span>
-              </p>
+            <div class="w-form-fail successmsg error">
+              <p>Oops! Something went wrong while submitting the form</p>
             </div>
           </div>
         </div>
         <div class="w-col w-col-6 w-col-small-6 contactcolumn2 phone">
-          <h1 class="topheadingpersonalmessage contact landscape"><span class="outdent">...</span>tell me a little bit about your <span class="projectspan">project</span>...</h1>
+          <h1 class="topheadingpersonalmessage contact"><span class="outdent">...</span>πείτε μου λίγα λόγια για το <span class="projectspan">project</span> σας...</h1>
         </div>
       </div>
     </div>
@@ -120,20 +116,20 @@
     <div class="overlaydiv contacts phone">
       <div class="w-row contactrow phone">
         <div class="w-col w-col-6 w-col-small-6 formcolumn phone">
-          <h1 class="topheadingpersonalmessage contact"><span class="outdentphone">...</span>tell me a little bit about your <span class="projectspan">project</span>...</h1>
+          <h1 class="topheadingpersonalmessage contact"><span class="outdentphone">...</span>πείτε μου λίγα λόγια για το&nbsp;<span class="projectspan">project</span>&nbsp;σας...</h1>
         </div>
         <div class="w-col w-col-6 w-col-small-6 contactcolumn2 phone">
           <div id="wrap" class="w-form formwrapper phone">
             <form id="email-form" name="email-form" data-name="Email Form" class="form phone">
-              <input id="name-2" type="text" placeholder="Name" name="name-2" data-name="Name 2" required="required" class="w-input namefield phone">
+              <input id="name-2" type="text" placeholder="Όνομα" name="name-2" data-name="Name 2" required="required" class="w-input namefield phone">
               <input id="email-2" type="email" placeholder="Email " name="email-2" data-name="Email 2" required="required" class="w-input mailfield phone">
-              <textarea id="field-2" placeholder="Your message" name="field-2" data-name="Field 2" class="w-input textfield phone"></textarea>
-              <input type="submit" value="Submit" data-wait="Please wait..." class="w-button formbtn phone">
+              <textarea id="field-2" placeholder="Το μήνυμα σας" name="field-2" data-name="Field 2" required="required" class="w-input textfield phone"></textarea>
+              <input type="submit" value="ΑΠΟΣΤΟΛΗ" data-wait="Please wait..." class="w-button formbtn phone">
             </form>
-            <div class="w-form-done successmsg">
+            <div class="w-form-done">
               <p>Thank you! Your submission has been received!</p>
             </div>
-            <div class="w-form-fail successmsg error">
+            <div class="w-form-fail">
               <p>Oops! Something went wrong while submitting the form</p>
             </div>
           </div>
@@ -144,35 +140,35 @@
   <div id="education" class="w-section educationsection">
     <div class="overlaydiv edu">
       <div class="w-row edurow">
-        <div class="w-col w-col-6 w-clearfix workcol1">
-          <h1 id="work" class="topheadingpersonalmessage work skills land home"><span class="outdent">...</span>i'm constantly learning new things and upgrading my work...</h1>
+        <div class="w-col w-col-6 workcol1">
+          <h1 id="work" class="topheadingpersonalmessage work skills land"><span class="outdent">...</span>μαθαίνω διαρκώς  να χρησιμοποιώ καινούργια εργαλεία και να αναβαθμίζω τη δουλειά μου...</h1>
         </div>
         <div class="w-col w-col-6 workcol2">
           <div data-animation="outin" data-duration="1500" data-hide-arrows="1" data-infinite="1" data-delay="0" data-autoplay="1" data-easing="linear" class="w-slider slider">
             <div class="w-slider-mask">
-              <div class="w-slide slider1"><img width="211" src="images/HTML5_logo_and_wordmark_1.svg" class="skillsimg">
+              <div class="w-slide slider1"><img width="207" src="images/HTML5_logo_and_wordmark.svg" class="skillsimg">
               </div>
-              <div class="w-slide slider1"><img width="149" src="images/css3_1.svg" class="skillsimg">
+              <div class="w-slide slider1"><img width="149" src="images/css3.svg" class="skillsimg">
               </div>
-              <div class="w-slide slider1"><img width="200" src="images/jQurery_1.gif" class="skillsimg">
+              <div class="w-slide slider1"><img width="200" src="images/jQurery.gif" class="skillsimg">
               </div>
-              <div class="w-slide slider1"><img width="365" src="images/bootstrap.png" class="skillsimg">
+              <div class="w-slide slider1"><img width="272" src="images/bootstrap.png" class="skillsimg">
               </div>
-              <div class="w-slide slider1"><img width="268" src="images/Git-logo.svg_1.png" class="skillsimg git land">
+              <div class="w-slide slider1"><img width="268" src="images/Git-logo.svg.png" class="skillsimg git land">
               </div>
-              <div class="w-slide slider1"><img width="280" src="images/GitHub_logo_2013_padded.svg_1.png" class="skillsimg github landscape">
+              <div class="w-slide slider1"><img width="280" src="images/GitHub_logo_2013_padded.svg.png" class="skillsimg github landscape">
               </div>
-              <div class="w-slide slider1"><img width="290" src="images/Atom_icon_1.png" class="skillsimg atom land">
+              <div class="w-slide slider1"><img width="290" src="images/Atom_icon.png" class="skillsimg atom land">
               </div>
               <div class="w-slide slider1"><img width="287" src="images/5606c245e67c4a89489dcb8b_webflow--blue.svg" class="skillsimg webflow land">
               </div>
-              <div class="w-slide slider1"><img width="213" src="images/1000px-The_GIMP_icon_-_gnome.svg.png" class="skillsimg gimp land">
+              <div class="w-slide slider1"><img width="213" src="images/1000px-The_GIMP_icon_-_gnome.svg_1.png" class="skillsimg gimp land">
               </div>
-              <div class="w-slide slider1"><img width="365" src="images/trello-logo.png" class="skillsimg">
+              <div class="w-slide slider1"><img width="310" src="images/linux-logo-600x300.png" class="skillsimg ubuntu lans">
               </div>
-              <div class="w-slide slider1"><img width="300" src="images/linux-logo-600x300.png" class="skillsimg ubuntu lans">
+              <div class="w-slide slider1"><img width="400" src="images/trello-logo.png" class="skillsimg">
               </div>
-              <div class="w-slide slider1"><img width="287" src="images/ChromeDev.png" class="skillsimg chrome land">
+              <div class="w-slide slider1"><img width="322" src="images/ChromeDev_1.png" class="skillsimg chrome land">
               </div>
             </div>
             <div class="w-slider-arrow-left leftarrow">
@@ -188,7 +184,7 @@
     </div>
   </div>
   <div class="w-section moocssection">
-    <div class="w-clearfix moocsdiv"><img width="216" src="images/overview-of-creating-an-edx-course_378x225_1.jpg" class="moocimg"><img src="images/614637_orig.png" class="moocimg"><img src="images/unnamed.png" class="moocimg">
+    <div class="w-clearfix moocsdiv"><img width="216" src="images/overview-of-creating-an-edx-course_378x225.jpg" class="moocimg"><img src="images/614637_orig_1.png" class="moocimg"><img src="images/unnamed.png" class="moocimg">
       <div class="overlaydiv mooc"></div>
     </div>
   </div>
@@ -196,10 +192,6 @@
     <div class="atributes"><span class="atr">Shape graphic by Catalin Fertu and Tool graphic by Freepik from Flaticon are licensed under CC BY 3.0. Made with Logo Maker<br xmlns="http://www.w3.org/1999/xhtml"></span><span class="keyboardatribute">Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0</span>
     </div>
   </div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='http://jschr.github.io/textillate/assets/jquery.lettering.js'></script>
-  <script src='http://jschr.github.io/textillate/jquery.textillate.js'></script>
-  <script src="js/index.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
