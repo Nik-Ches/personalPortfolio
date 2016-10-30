@@ -92,52 +92,67 @@
   <div id="contactSSec" class="w-section w-hidden-tiny contactsection phone">
     <div class="overlaydiv contacts phone">
       <div class="w-row contactrow phone">
-        <div class="w-col w-col-6 w-col-small-6 formcolumn phone">
-          <div id="wrap" class="w-form formwrapper phone">
-            <form id="email-form" name="email-form" data-name="Email Form" class="form phone">
-              <input id="name" type="text" placeholder="Name" name="name" data-name="Name" required="required" class="w-input namefield phone">
-              <input id="email-3" type="email" placeholder="Email " required="required" name="email" data-name="Email" class="w-input mailfield phone">
-              <textarea id="field" placeholder="Your message" name="field" class="w-input textfield phone"></textarea>
-              <input type="submit" value="Submit" data-wait="Please wait..." class="w-button formbtn phone">
-            </form>
-            <div class="w-form-done successmsg">
-              <p>Thank you! Your submission has been received!</p>
-            </div>
-            <div class="w-form-fail successmsg">
-              <p>Oops! Something went wrong while submitting the form.
-                <br><span class="instructionsspan">You are probably using some browser extension that blocks the outgoing message.<br xmlns="http://www.w3.org/1999/xhtml">Please disable it and send the message again.</span>
-              </p>
-            </div>
-          </div>
-        </div>
         <div class="w-col w-col-6 w-col-small-6 contactcolumn2 phone">
           <h1 class="topheadingpersonalmessage contact landscape"><span class="outdent">...</span>tell me a little bit about your <span class="projectspan">project</span>...</h1>
         </div>
-      </div>
-    </div>
-  </div>
-  <div id="contactSec" class="w-section w-hidden-main w-hidden-medium w-hidden-small contactsection phone _2">
-    <div class="overlaydiv contacts phone">
-      <div class="w-row contactrow phone">
         <div class="w-col w-col-6 w-col-small-6 formcolumn phone">
-          <h1 class="topheadingpersonalmessage contact"><span class="outdentphone">...</span>tell me a little bit about your <span class="projectspan">project</span>...</h1>
-        </div>
-        <div class="w-col w-col-6 w-col-small-6 contactcolumn2 phone">
-          <div id="wrap" class="w-form formwrapper phone">
-            <form id="email-form" name="email-form" data-name="Email Form" class="form phone">
-              <input id="name-2" type="text" placeholder="Name" name="name-2" data-name="Name 2" required="required" class="w-input namefield phone">
-              <input id="email-2" type="email" placeholder="Email " name="email-2" data-name="Email 2" required="required" class="w-input mailfield phone">
-              <textarea id="field-2" placeholder="Your message" name="field-2" data-name="Field 2" class="w-input textfield phone"></textarea>
-              <input type="submit" value="Submit" data-wait="Please wait..." class="w-button formbtn phone">
-            </form>
-            <div class="w-form-done successmsg">
-              <p>Thank you! Your submission has been received!</p>
-            </div>
-            <div class="w-form-fail successmsg error">
-              <p>Oops! Something went wrong while submitting the form</p>
-            </div>
-          </div>
-        </div>
+            <iframe
+      id="JotFormIFrame-63032568596363"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      src="https://form.jotformeu.com/63032568596363"
+      frameborder="0"
+      style="width:80%;
+      height:630px;
+      border:none;"
+      scrolling="no">
+    </iframe>
+    <script type="text/javascript">
+      window.handleIFrameMessage = function(e) {
+        var args = e.data.split(":");
+        var iframe = false;
+        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); }
+        if (!iframe)
+          return;
+        switch (args[0]) {
+          case "scrollIntoView":
+            iframe.scrollIntoView();
+            break;
+          case "setHeight":
+            iframe.style.height = args[1] + "px";
+            break;
+          case "collapseErrorPage":
+            if (iframe.clientHeight > window.innerHeight) {
+              iframe.style.height = window.innerHeight + "px";
+            }
+            break;
+          case "reloadPage":
+            window.location.reload();
+            break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+        }
+      };
+      if (window.addEventListener) {
+        window.addEventListener("message", handleIFrameMessage, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onmessage", handleIFrameMessage);
+      }
+      if(window.location.href && window.location.href.indexOf("?") > -1) {
+        var ifr = false;
+        if (args.length > 2) { ifr = document.getElementById("JotFormIFrame-" + args[2]); } else { ifr = document.getElementById("JotFormIFrame"); }
+        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+        if(ifr && get.length > 0) {
+          var src = ifr.src;
+          src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
+          ifr.src = src;
+        }
+      }
+      </script>
+        </div>       
       </div>
     </div>
   </div>
